@@ -9,6 +9,7 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "exceljs": "4.3.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-scripts": "4.0.3"
