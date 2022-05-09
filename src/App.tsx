@@ -53,7 +53,9 @@ export const App: FC = () => {
   return (
     <div className="App">
       <h1>データ出力</h1>
-      <button>CSV形式</button>
+      <button onClick={(e) => handlerClickDownloadButton(e, "csv")}>
+        CSV形式
+      </button>
     </div>
   );
 };
